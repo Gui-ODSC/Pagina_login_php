@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../IMAGES/canion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: arial;
+}
+
+body#cad{
+    background-image: url("../IMAGES/ponte.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: arial;
+}
+
+input{
+    display:block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+div#corpo-form{
+    width: 450px;
+    margin: 150px auto 0px auto;
+    padding:10px;
+    background-color: rgba(28,28,28, 0.9);
+    border-radius: 30px;
+}
+
+div#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{ 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{ 
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #483D8B;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 442px;
+    height: 55px;
+}
+
+input#cad[type=submit]{
+    background-color: #ADD8E6;
+    border: none;
+    color: #2F4F4F	;
+    cursor: pointer;
+    width: 442px;
+    height: 55px;
+}
+
+input::placeholder{
+    color:#fff;
+}
+
+div#corpo-form-Cad{
+    width: 450px;
+    margin: 10px auto 20px auto;
+    padding:10px;
+    background-color: rgba(28,28,28, 0.9);
+    border-radius: 30px;
+}
+
+div#corpo-form-Cad h1{
+    text-align: center;
+    padding: 10px;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34, 139, 34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px solid rgb(165,42,42);
+}
+
+body#tela-a{
+    background-image: url("../IMAGES/agua.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: arial;
+}
+
+div#tela-A{
+    width: 400px;
+    height: 270px;
+    margin: 170px auto 0px auto;
+    background-color: rgba(28,28,28, 0.9);
+    border-radius: 30px;
+}
+
+div#tela-A h1{
+    margin: 100px auto 0px auto;
+    text-align: center;
+    font-size: 80px;
+    padding: 50px;
+}
+
+div#tela-A a{ 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor:pointer;
+}
+
+div#tela-A a:hover{ 
+    text-decoration: underline;
+}
+
+a#sair{
+    text-align: left;
+    padding: 10px;
+    color: black;
+}
+
+div#barra-sup{
+    background-color: white;
+}
+
+body#tela-b{
+    background-image: url("../IMAGES/arvore.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: arial;
+}
+

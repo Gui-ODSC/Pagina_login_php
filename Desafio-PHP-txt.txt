@@ -1,0 +1,27 @@
+pacotes de apache = xampp ____--_____
+mysql (login e senha)
+servidor web = apache ____--____
+pagina com login e senha para pagina a e b 
+alternando entre páginas a e b
+
+até segunda dia 13 no fim do dia
+
+dia 13 das 17 as 18h
+
+_________________________________________________________________________________________________________________________
+
+
+pacote com php-apache-mysql = pacote xampp
+
+FILTER_SANITIZE_STRINGs
+Tira tags e aspas simples e duplas codificadas em HTML, opcionalmente tira ou codifica caracteres especiais. As cotações de codificação podem ser desativadas definindo
+
+FILTER_SANITIZE_EMAIL
+Remova todos os caracteres, exceto letras, dígitos e !#$%&'*+-=?^_`{|}~@.[].
+
+uitlização de MD5 para a criptografia das senhas dos usuarios, por isso a utlização de 32 caracteres.
+
+O que é o PDO?
+O PDO (PHP Data Object) é uma extensão da linguagem PHP para acesso a banco de dados. Totalmente orientado a objetos ele possui diversos recursos importantes, além de suporte a diversos mecanismos de banco de dados.
+
+bindValue: valor de ligação
